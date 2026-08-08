@@ -33,9 +33,11 @@ Entries assume no endorsement — check activity/last-commit before depending on
 - [duckdb_mcp](https://duckdb.org/community_extensions/extensions/duckdb_mcp)
 - [geoflow-stac-mcp](https://github.com/chrislyonsKY/geoflow-stac-mcp)
 - [geoserver-mcp](https://github.com/mahdin75/geoserver-mcp)
+- [Geospatial Power Pack](https://github.com/aws-samples/sample-geospatial-kiro-power-pack) — 19 modular MCP servers for Kiro: STAC/vector/geocoding/terrain/weather data connectors, CRS/geometry/raster/point-cloud/3D processing, H3/S2 indexing, FM embeddings and embedding search, plus optional Redshift, commercial imagery, and AWS Batch/EMR/SageMaker compute
 - [MCP Data Server](https://github.com/boettiger-lab/mcp-data-server)
 - [PostGIS MCP Server](https://www.pulsemcp.com/servers/receptopalak-postgis)
 - [PostGIS Yukon MCP](https://mcp.aibase.com/server/1574493290131366134)
+- [Wherobots MCP Server](https://docs.wherobots.com/develop/mcp/mcp-server-overview)
 
 ## Earth Observation & Satellite Imagery
 
@@ -48,12 +50,11 @@ Entries assume no endorsement — check activity/last-commit before depending on
 
 ## Earth Embeddings & Foundation Models
 
-As of mid-2026 there's no widely-adopted MCP server dedicated to geo/Earth embeddings yet. Tracking here so the list stays ahead of the gap:
+The [LGND MCP Server](https://github.com/EarthLegend/developer_resources/tree/main/mcp) (beta) is the first dedicated Earth-embeddings MCP server — agents can search collections by text, image, or coordinates, run inference to create new embedding collections, and inspect chips/cells.
 
-- [Hugging Face MCP Server](https://huggingface.co/docs/hub/en/agents-mcp)
 - [Element 84 Geospatial Tech Radar](https://element84.com/geospatial-tech-radar-25/)
-
-*Know of one that fills this gap? Open a PR.*
+- [Hugging Face MCP Server](https://huggingface.co/docs/hub/en/agents-mcp)
+- [LGND MCP Server](https://github.com/EarthLegend/developer_resources/tree/main/mcp)
 
 ## Contributing
 
@@ -69,3 +70,5 @@ To the extent possible under law, the contributors have waived all copyright and
 
 - [best-of-mcp-servers](https://github.com/tolkonepiu/best-of-mcp-servers)
 - [Element 84 Geospatial Tech Radar](https://element84.com/geospatial-tech-radar-25/)
+- [Kiro](https://kiro.dev/) — AWS agentic development environment that hosts the Geospatial Power Pack
+- [Registry of Open Data on AWS](https://registry.opendata.aws/) — open geospatial datasets (Sentinel-2, Landsat, NASA SWOT, LGND Clay embeddings) used by the pack's default pipelines
