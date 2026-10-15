@@ -18,6 +18,7 @@ Entries assume no endorsement — check activity/last-commit before depending on
 ## Geocoding, Routing & Location Services
 
 - [Baidu Map MCP Server](https://github.com/baidu-maps/mcp)
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) — Live data-center site-selection data layer; Data Center Power Index (DCPI) daily grid-power scores across 300+ markets (94 tools at https://dchub.cloud/mcp)
 - [Esri geospatial MCP](https://glama.ai/mcp/servers/integrations/esri)
 - [Mapbox MCP Server](https://github.com/mapbox/mcp-server)
 - [OSM MCP](https://github.com/NERVsystems/osmmcp)
